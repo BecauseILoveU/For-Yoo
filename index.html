@@ -1,0 +1,1955 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Un espacio especial creado por Mariana para Yoona."
+    >
+
+    <title>From Mariana, For Yoo</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <main class="welcome-page">
+
+        <!-- Nubes decorativas -->
+        <div
+            class="cloud cloud-one"
+            aria-hidden="true"
+        >
+            ☁
+        </div>
+
+        <div
+            class="cloud cloud-two"
+            aria-hidden="true"
+        >
+            ☁
+        </div>
+
+
+        <!-- Dinosaurios decorativos -->
+        <div
+            class="background-dinosaur dinosaur-one"
+            aria-hidden="true"
+        >
+            🦕
+        </div>
+
+        <div
+            class="background-dinosaur dinosaur-two"
+            aria-hidden="true"
+        >
+            🦖
+        </div>
+
+        <div
+            class="background-dinosaur dinosaur-three"
+            aria-hidden="true"
+        >
+            🦕
+        </div>
+
+        <div
+            class="background-dinosaur dinosaur-four"
+            aria-hidden="true"
+        >
+            🦖
+        </div>
+
+
+        <!-- Pasto decorativo -->
+        <div
+            class="grass"
+            aria-hidden="true"
+        ></div>
+
+
+        <!-- PANTALLA DE REGRESO -->
+        <section
+            id="return-screen"
+            class="welcome-card"
+            aria-labelledby="return-title"
+        >
+
+            <div
+                class="main-dinosaur"
+                aria-hidden="true"
+            >
+                🦖
+            </div>
+
+            <p class="eyebrow">
+                Holaaa
+            </p>
+
+            <h1 id="return-title">
+                Yayy regresaste
+                <span>Yoona ♡</span>
+            </h1>
+
+            <p class="description">
+                Te amo te amo te amo gracias x volver ya te quería de regreso.
+            </p>
+
+            <button
+                id="direct-enter-button"
+                type="button"
+            >
+                Entrar
+            </button>
+
+            <button
+                id="repeat-quiz-button"
+                class="secondary-button"
+                type="button"
+            >
+                Repetir preguntas
+            </button>
+
+        </section>
+
+
+        <!-- PANTALLA DE LA FECHA -->
+        <section
+            id="date-screen"
+            class="welcome-card active-card"
+            aria-labelledby="date-title"
+        >
+
+            <div
+                class="main-dinosaur"
+                aria-hidden="true"
+            >
+                🦕
+            </div>
+
+            <p class="eyebrow">
+                Para cuando me extrañes
+            </p>
+
+            <h1 id="date-title">
+                Hola Yoona
+                <span>♡</span>
+            </h1>
+
+            <p class="description">
+                Bienvenidaaa jajajaja. Hice este website para que nunca
+                olvides lo mucho que te amo. Have fun!
+            </p>
+
+            <div class="question-box">
+
+                <label for="final-date">
+                    ¿Cuándo te dejaré de amar?
+                </label>
+
+                <p
+                    id="date-help"
+                    class="question-help"
+                >
+                    Selecciona el día en el que crees que dejaré de amarte.
+                </p>
+
+                <input
+                    type="date"
+                    id="final-date"
+                    aria-describedby="date-help answer-message"
+                >
+
+                <button
+                    id="answer-button"
+                    type="button"
+                >
+                    Confirmar respuesta
+                </button>
+
+                <p
+                    id="answer-message"
+                    role="status"
+                    aria-live="polite"
+                ></p>
+
+                <button
+                    id="continue-button"
+                    class="hidden-button"
+                    type="button"
+                >
+                    Preguntaaaassss 🦕
+                </button>
+
+         </div>
+
+        </section>
+
+
+        <!-- PANTALLA DEL CUESTIONARIO -->
+        <section
+     id="quiz-screen"
+    class="welcome-card"
+    aria-labelledby="quiz-title"
+>
+
+    <div
+        class="main-dinosaur"
+        aria-hidden="true"
+    >
+        🦖
+    </div>
+
+    <p class="eyebrow">
+        Test
+    </p>
+
+    <h1 id="quiz-title">
+        ¿Qué tanto sabes?
+    </h1>
+
+    <p class="description">
+        A ver, vamos a ver qué tan bien te va...
+    </p>
+
+    <div
+        class="quiz-progress"
+        aria-label="Progreso del cuestionario"
+    >
+
+        <div
+            id="progress-bar"
+            class="progress-bar"
+        ></div>
+
+    </div>
+
+    <p
+        id="question-number"
+        class="question-number"
+    >
+        Pregunta 1 de 5
+    </p>
+
+    <div class="question-box">
+
+        <label
+            id="quiz-question"
+            for="quiz-answer"
+        >
+            ¿Cómo me llamo?
+        </label>
+
+        <p
+            id="quiz-hint"
+            class="question-help"
+        >
+            Escribe aquí.
+        </p>
+
+        <input
+            type="text"
+            id="quiz-answer"
+            placeholder="Tu respuesta..."
+            autocomplete="off"
+            aria-describedby="quiz-hint quiz-message"
+        >
+
+        <button
+            id="quiz-button"
+            type="button"
+        >
+            Responder
+        </button>
+
+        <p
+            id="quiz-message"
+            role="status"
+            aria-live="polite"
+        ></p>
+
+    </div>
+
+</section>
+
+
+<!-- PANTALLA FINAL -->
+<section
+    id="result-screen"
+    class="welcome-card"
+    aria-labelledby="result-title"
+>
+
+    <div
+        class="main-dinosaur"
+        aria-hidden="true"
+    >
+        🦕
+    </div>
+
+    <p class="eyebrow">
+        Dinooo
+    </p>
+
+    <h1 id="result-title">
+        Aha. Keep proving me right
+    </h1>
+
+    <p class="description">
+        Eres demasiado inteligente y pro.
+    </p>
+
+    <div class="final-result">
+
+        <p
+            id="final-score"
+            role="status"
+            aria-live="polite"
+        ></p>
+
+        <p>
+            Te dejo pequeñas cositas para que me recuerdes siempre y en cada momento.
+        </p>
+
+        <button
+            id="enter-button"
+            type="button"
+        >
+            Siguienteee
+        </button>
+
+    </div>
+
+</section>
+<!-- PANTALLA DE TRANSICIÓN Y ESCANEO -->
+<section
+    id="transition-screen"
+    class="transition-screen"
+    aria-labelledby="scanner-title"
+    aria-live="polite"
+>
+
+    <div class="dna-scanner">
+
+        <div
+            id="scanner-dinosaur"
+            class="scanner-dinosaur"
+            aria-hidden="true"
+        >
+            🦕
+        </div>
+
+        <p
+            id="scanner-label"
+            class="scanner-label"
+        >
+            Hmmmm...
+        </p>
+
+        <h2 id="scanner-title">
+            ...Yooonaaaa????...
+        </h2>
+
+        <p
+            id="scanner-description"
+            class="scanner-description"
+        >
+            Eres tuuu???
+        </p>
+
+        <div
+            class="scanner-bar-container"
+            role="progressbar"
+            aria-label="Progreso del escaneo"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="0"
+        >
+
+            <div
+                id="scanner-bar"
+                class="scanner-bar"
+            ></div>
+
+        </div>
+
+        <p
+            id="scanner-percentage"
+            class="scanner-percentage"
+        >
+            0%
+        </p>
+
+        <div
+            id="profile-found"
+            class="profile-found"
+        >
+
+            <p class="profile-found-label">
+                Bienvenida!!
+            </p>
+
+            <div
+                class="profile-found-avatar"
+                aria-hidden="true"
+            >
+                🦖
+            </div>
+
+            <h3>
+                Yoona
+            </h3>
+
+            <p>
+                Enjoyy
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- DASHBOARD PRINCIPAL -->
+<section
+    id="dashboard-screen"
+    class="dashboard-screen"
+    aria-labelledby="dashboard-title"
+>
+
+    <header class="dashboard-header">
+
+        <div class="dashboard-welcome">
+
+            <p class="dashboard-eyebrow">
+                De mí. Para ti. Te amo.
+            </p>
+
+            <h1 id="dashboard-title">
+                Para la mejor girlfriend del mundo
+                <span>♡</span>
+            </h1>
+
+            <p>
+                Jamás te olvides de mí. Aquí sigo.
+            </p>
+
+        </div>
+
+
+        <div class="dashboard-profile">
+
+            <div
+                id="dashboard-avatar"
+                class="dashboard-avatar"
+                aria-hidden="true"
+            >
+                🦖
+            </div>
+
+            <div class="dashboard-profile-text">
+
+                <span class="profile-status">
+                    Tu perfil
+                </span>
+
+                <strong id="dashboard-profile-name">
+                    Yoona
+                </strong>
+
+                <small id="dashboard-profile-score">
+                    Quiz completado
+                </small>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <div
+        class="dashboard-grid"
+        aria-label="Secciones de nuestro espacio"
+    >
+<button
+    class="dashboard-card"
+    data-section="constellation-section"
+    type="button"
+>
+    <span
+        class="card-icon"
+        aria-hidden="true"
+    >
+        🔭
+    </span>
+
+    <span class="card-information">
+
+        <strong>
+            Observatorio
+        </strong>
+
+        <small>
+            Mis deseos.
+        </small>
+
+    </span>
+
+    <span
+        class="card-arrow"
+        aria-hidden="true"
+    >
+        →
+    </span>
+</button>
+
+
+<button
+    class="dashboard-card"
+    data-section="private-section"
+    type="button"
+>
+    <span
+        class="card-icon"
+        aria-hidden="true"
+    >
+        🔞
+    </span>
+
+    <span class="card-information">
+
+        <strong>
+            +18
+        </strong>
+
+        <small>
+            Ehh... Cuidadito aquí...
+        </small>
+
+    </span>
+
+    <span
+        class="card-arrow"
+        aria-hidden="true"
+    >
+        →
+    </span>
+</button>
+
+        <button
+            class="dashboard-card"
+            data-section="photos-section"
+            type="button"
+        >
+            <span
+                class="card-icon"
+                aria-hidden="true"
+            >
+                📷
+            </span>
+
+            <span class="card-information">
+
+                <strong>
+                    Galería
+                </strong>
+
+                <small>
+                    Momentos bonitos. Aunque tbh aprecio todos.
+                </small>
+
+            </span>
+
+            <span
+                class="card-arrow"
+                aria-hidden="true"
+            >
+                →
+            </span>
+        </button>
+
+        
+
+        <button
+            class="dashboard-card"
+            data-section="countdown-section"
+            type="button"
+        >
+            <span
+                class="card-icon"
+                aria-hidden="true"
+            >
+               ⏳ 
+            </span>
+
+            <span class="card-information">
+
+                <strong>
+                    Countdown
+                </strong>
+
+                <small>
+                    Ya te quiero abrazar
+                </small>
+
+    </span>
+
+    <span
+        class="card-arrow"
+        aria-hidden="true"
+    >
+        →
+    </span>
+</button>
+
+
+        <button
+            class="dashboard-card"
+            data-section="letters"
+            type="button"
+        >
+            <span
+                class="card-icon"
+                aria-hidden="true"
+            >
+                💌
+            </span>
+
+            <span class="card-information">
+
+                <strong>
+                    Cartitas
+                </strong>
+
+                <small>
+                    Para ti que te encanta leer
+                </small>
+
+            </span>
+
+            <span
+                class="card-arrow"
+                aria-hidden="true"
+            >
+                →
+            </span>
+        </button>
+
+
+        <button
+            class="dashboard-card"
+            data-section="jar"
+            type="button"
+        >
+            <span
+                class="card-icon"
+                aria-hidden="true"
+            >
+                🫙
+            </span>
+
+            <span class="card-information">
+
+                <strong>
+                    Frasco de mensajes
+                </strong>
+
+                <small>
+                    Mensajitos para tiii
+                </small>
+
+            </span>
+
+            <span
+                class="card-arrow"
+                aria-hidden="true"
+            >
+                →
+            </span>
+        </button>
+
+
+
+    </div>
+
+</section>
+
+<!-- SECCIÓN DE FOTOS -->
+<section
+    id="photos-section"
+    class="dashboard-content-screen"
+    aria-labelledby="photos-title"
+>
+
+    <div class="section-topbar">
+
+        <button
+            class="back-button"
+            type="button"
+        >
+            ← Volver
+        </button>
+
+        <div
+            class="section-small-dino"
+            aria-hidden="true"
+        >
+            🦕
+        </div>
+
+    </div>
+
+
+    <header class="section-header">
+
+        <p class="dashboard-eyebrow">
+            Para que nunca te olvides de mi cara
+        </p>
+
+        <h1 id="photos-title">
+            Fotitos
+            <span>♡</span>
+        </h1>
+
+        <p>
+            Algunas de mis favorite pictures. Todas son inmensamente especiales.
+        </p>
+
+    </header>
+
+
+    <div class="photo-tabs">
+
+        <button
+            class="photo-tab active-photo-tab"
+            data-gallery="together-gallery"
+            type="button"
+        >
+            Recuerdos
+        </button>
+
+        <button
+            class="photo-tab"
+            data-gallery="mariana-gallery"
+            type="button"
+        >
+            Mariana
+        </button>
+
+    </div>
+
+
+    <div
+        id="together-gallery"
+        class="photos-grid photo-gallery active-photo-gallery"
+    ></div>
+
+
+    <div
+        id="mariana-gallery"
+        class="photos-grid photo-gallery"
+    ></div>
+
+</section>
+
+<!-- SECCIÓN PRIVADA DE BROMA -->
+<section
+    id="private-section"
+    class="dashboard-content-screen"
+    aria-labelledby="private-title"
+>
+
+    <div class="section-topbar">
+
+        <button
+            class="back-button"
+            type="button"
+        >
+            ← Volver
+        </button>
+
+        <div
+            class="section-small-dino"
+            aria-hidden="true"
+        >
+            🔞
+        </div>
+
+    </div>
+
+
+    <div class="private-access-card">
+
+        <p class="private-warning">
+            Contenido clasificado
+        </p>
+
+        <h1 id="private-title">
+            +18
+        </h1>
+
+        <p class="private-description">
+            Yoona ten cuidado por favor. No abras esto en frente de NADIE, okay?
+        </p>
+
+
+        <div
+            id="private-login"
+            class="private-login"
+        >
+
+            <label for="private-password">
+                Contraseña
+            </label>
+
+            <input
+                id="private-password"
+                type="password"
+                placeholder="Escribe la contraseña..."
+                autocomplete="off"
+            >
+
+            <button
+                id="private-unlock-button"
+                type="button"
+            >
+                Continuar a mi propio riesgo
+            </button>
+
+            <p
+                id="private-message"
+                class="private-message"
+                role="status"
+                aria-live="polite"
+            ></p>
+
+        </div>
+
+
+        <div
+            id="private-joke"
+            class="private-joke"
+        >
+
+            <p class="access-granted">
+                Acceso concedido 🔓
+            </p>
+
+            <h2>
+                Ay Yoona... 
+            </h2>
+
+            <p>
+                Mi amor hasta crees jajaja
+            </p>
+
+            <p>
+                Para solicitudes EXTREMADAMENTE privadas,
+                contáctactame directamente.
+            </p>
+
+            <a
+                class="private-contact-button"
+                href="https://wa.me/8131293716"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Contáctame
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section
+    id="constellation-section"
+    class="dashboard-content-screen space-section"
+    aria-labelledby="observatory-title"
+>
+
+    <!-- Pantalla inicial con telescopio -->
+
+    <div
+        id="telescope-intro"
+        class="telescope-intro"
+    >
+
+        <div class="section-topbar space-topbar">
+
+            <button
+                class="back-button"
+                type="button"
+            >
+                ← Volver
+            </button>
+
+            <span aria-hidden="true">
+                ✦
+            </span>
+
+        </div>
+
+
+        <div class="intro-stars" aria-hidden="true"></div>
+
+        <div class="telescope-intro-content">
+
+            <p class="space-small-title">
+                Observatorio
+            </p>
+
+            <h1 id="observatory-title">
+                Hola Yoona, mira por el telescopio
+            </h1>
+
+            <p class="telescope-instructions">
+                Son mis deseos para ti y para mí
+            </p>
+
+
+            <div
+                id="interactive-telescope"
+                class="interactive-telescope"
+                aria-hidden="true"
+            >
+
+                <div class="telescope-glass"></div>
+
+                <div class="telescope-body">
+                    <div class="telescope-detail"></div>
+                </div>
+
+                <div class="telescope-support"></div>
+
+                <div class="telescope-leg telescope-leg-left"></div>
+                <div class="telescope-leg telescope-leg-right"></div>
+
+            </div>
+
+
+            <button
+                id="enter-observatory-button"
+                class="enter-observatory-button"
+                type="button"
+            >
+                Entrar
+            
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Cielo visto por el telescopio -->
+
+    <div
+        id="space-observatory"
+        class="space-observatory"
+        aria-hidden="true"
+    >
+
+        <div class="section-topbar space-topbar">
+
+            <button
+                id="leave-observatory-button"
+                class="back-button"
+                type="button"
+            >
+                ← Go back
+            </button>
+
+            <p class="observatory-counter">
+                Llevas:
+                <strong id="discovered-count">0</strong>/8
+            </p>
+
+        </div>
+
+
+        <header class="space-header">
+
+            <p class="space-small-title">
+                constelaciones
+            </p>
+
+            <h2>
+                mis wishes
+            </h2>
+
+            <p>
+                Pícales a ver que dicen.
+            </p>
+
+        </header>
+
+
+        <div
+            id="space-sky"
+            class="space-sky"
+        >
+
+            <!-- Aurora -->
+
+            <div class="aurora-curtain aurora-left"></div>
+            <div class="aurora-curtain aurora-center"></div>
+            <div class="aurora-curtain aurora-right"></div>
+
+<div class="shooting-stars" aria-hidden="true">
+
+    <span class="shooting-star shooting-star-one"></span>
+    <span class="shooting-star shooting-star-two"></span>
+    <span class="shooting-star shooting-star-three"></span>
+    <span class="shooting-star shooting-star-four"></span>
+
+</div>
+
+<div
+    class="milky-way"
+    aria-hidden="true"
+></div>
+
+<div
+    class="deep-space-glow"
+    aria-hidden="true"
+></div>
+            <!-- Estrellas decorativas -->
+
+            <div
+                id="background-stars"
+                class="background-stars"
+                aria-hidden="true"
+            ></div>
+
+
+            <!-- Líneas de constelaciones -->
+
+            <svg
+                class="wish-constellation-lines"
+                viewBox="0 0 1000 650"
+                preserveAspectRatio="none"
+                aria-hidden="true"
+            >
+
+                <!-- Constelación 1 -->
+
+                <polyline
+                    points="
+                        130,430
+                        220,350
+                        310,400
+                        390,300
+                    "
+                ></polyline>
+
+                <!-- Constelación 2 -->
+
+                <polyline
+                    points="
+                        610,430
+                        700,360
+                        780,420
+                        860,330
+                    "
+                ></polyline>
+
+            </svg>
+
+
+            <!-- Venus -->
+
+            <button
+                class="celestial-object venus-object"
+                data-wish="0"
+                type="button"
+                aria-label="Descubrir Venus"
+            >
+                <span class="celestial-glow"></span>
+                <span class="celestial-symbol">●</span>
+                <span class="celestial-name">Venus</span>
+            </button>
+
+
+            <!-- Polaris -->
+
+            <button
+                class="celestial-object polaris-object"
+                data-wish="1"
+                type="button"
+                aria-label="Descubrir Polaris"
+            >
+                <span class="celestial-glow"></span>
+                <span class="celestial-symbol">✦</span>
+                <span class="celestial-name">Polaris</span>
+            </button>
+
+
+            <!-- Betelgeuse -->
+
+            <button
+                class="celestial-object betelgeuse-object"
+                data-wish="2"
+                type="button"
+                aria-label="Descubrir Betelgeuse"
+            >
+                <span class="celestial-glow"></span>
+                <span class="celestial-symbol">✦</span>
+                <span class="celestial-name">Betelgeuse</span>
+            </button>
+
+<div
+    class="night-landscape"
+    aria-hidden="true"
+>
+    <div class="mountain mountain-back"></div>
+    <div class="mountain mountain-middle"></div>
+    <div class="mountain mountain-front"></div>
+
+    <div class="horizon-glow"></div>
+</div>
+        <!-- =================================
+     CONSTELACIONES REALES
+================================= -->
+
+<button
+    class="real-constellation ursa-major"
+    data-wish="3"
+    type="button"
+    aria-label="Descubrir la Osa Mayor"
+>
+    <svg viewBox="0 0 260 170" aria-hidden="true">
+
+        <polyline
+            points="
+                30,105
+                72,75
+                115,92
+                145,57
+                185,45
+                220,68
+                205,108
+                165,102
+                145,57
+            "
+        ></polyline>
+
+        <circle cx="30" cy="105" r="4"></circle>
+        <circle cx="72" cy="75" r="4"></circle>
+        <circle cx="115" cy="92" r="4"></circle>
+        <circle cx="145" cy="57" r="5"></circle>
+        <circle cx="185" cy="45" r="4"></circle>
+        <circle cx="220" cy="68" r="5"></circle>
+        <circle cx="205" cy="108" r="4"></circle>
+        <circle cx="165" cy="102" r="4"></circle>
+
+    </svg>
+
+    <span class="real-constellation-name">
+        Osa Mayor
+    </span>
+</button>
+
+
+<button
+    class="real-constellation cassiopeia"
+    data-wish="4"
+    type="button"
+    aria-label="Descubrir Casiopea"
+>
+    <svg viewBox="0 0 260 150" aria-hidden="true">
+
+        <polyline
+            points="
+                25,90
+                75,42
+                125,94
+                180,38
+                232,82
+            "
+        ></polyline>
+
+        <circle cx="25" cy="90" r="4"></circle>
+        <circle cx="75" cy="42" r="5"></circle>
+        <circle cx="125" cy="94" r="4"></circle>
+        <circle cx="180" cy="38" r="5"></circle>
+        <circle cx="232" cy="82" r="4"></circle>
+
+    </svg>
+
+    <span class="real-constellation-name">
+        Casiopea
+    </span>
+</button>
+
+
+<button
+    class="real-constellation orion"
+    data-wish="5"
+    type="button"
+    aria-label="Descubrir Orión"
+>
+    <svg viewBox="0 0 230 230" aria-hidden="true">
+
+        <polyline
+            points="
+                55,35
+                92,95
+                110,112
+                128,129
+                175,42
+            "
+        ></polyline>
+
+        <polyline
+            points="
+                55,35
+                40,178
+                110,112
+                178,185
+                175,42
+            "
+        ></polyline>
+
+        <circle cx="55" cy="35" r="5"></circle>
+        <circle cx="175" cy="42" r="6"></circle>
+
+        <circle cx="92" cy="95" r="4"></circle>
+        <circle cx="110" cy="112" r="4"></circle>
+        <circle cx="128" cy="129" r="4"></circle>
+
+        <circle cx="40" cy="178" r="5"></circle>
+        <circle cx="178" cy="185" r="5"></circle>
+
+    </svg>
+
+    <span class="real-constellation-name">
+        Orión
+    </span>
+</button>
+
+
+<button
+    class="real-constellation cygnus"
+    data-wish="6"
+    type="button"
+    aria-label="Descubrir la constelación del Cisne"
+>
+    <svg viewBox="0 0 230 230" aria-hidden="true">
+
+        <polyline
+            points="
+                115,18
+                113,72
+                110,120
+                108,205
+            "
+        ></polyline>
+
+        <polyline
+            points="
+                32,118
+                110,120
+                198,116
+            "
+        ></polyline>
+
+        <circle cx="115" cy="18" r="5"></circle>
+        <circle cx="113" cy="72" r="4"></circle>
+        <circle cx="110" cy="120" r="6"></circle>
+        <circle cx="108" cy="205" r="5"></circle>
+
+        <circle cx="32" cy="118" r="4"></circle>
+        <circle cx="198" cy="116" r="4"></circle>
+
+    </svg>
+
+    <span class="real-constellation-name">
+        Cisne
+    </span>
+</button>
+
+
+            <!-- Estrella secreta -->
+
+            <button
+                class="celestial-object secret-star-object"
+                data-wish="7"
+                type="button"
+                aria-label="Descubrir estrella secreta"
+            >
+                <span class="celestial-glow"></span>
+                <span class="celestial-symbol">♡</span>
+                <span class="celestial-name">
+                    Secret star
+                </span>
+            </button>
+
+
+            <p class="sky-helper">
+                Te amo Yoona.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- Modal del deseo -->
+
+    <div
+        id="wish-modal"
+        class="wish-modal"
+        aria-hidden="true"
+    >
+
+        <button
+            class="wish-modal-background"
+            data-close-wish
+            type="button"
+            aria-label="Cerrar deseo"
+        ></button>
+
+
+        <article
+            class="wish-card"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="wish-title"
+        >
+
+            <button
+                id="close-wish-button"
+                class="close-wish-button"
+                type="button"
+                aria-label="Cerrar"
+            >
+                ×
+            </button>
+
+            <div
+                id="wish-icon"
+                class="wish-icon"
+                aria-hidden="true"
+            >
+                ✦
+            </div>
+
+            <p
+                id="wish-object-name"
+                class="wish-object-name"
+            ></p>
+
+            <h2 id="wish-title"></h2>
+
+            <p
+                id="wish-description"
+                class="wish-description"
+            ></p>
+
+            <p class="wish-signature">
+                No quiero perderte.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+<!-- =================================
+     CARTAS PARA TI
+================================= -->
+<!-- =================================
+     CARTAS PARA TI
+     ESCRITORIO VISTO DESDE ARRIBA
+================================= -->
+
+<section
+    id="letters"
+    class="dashboard-content-screen letters-section"
+    aria-labelledby="letters-title"
+>
+
+    <div class="letters-desk-topbar">
+
+        <button
+            class="back-button letters-back-button"
+            type="button"
+        >
+            ← Volver
+        </button>
+
+        <div class="letters-desk-title">
+            <span aria-hidden="true">♡</span>
+
+            <div>
+                <p>Mi amor</p>
+
+                <h1 id="letters-title">
+                    Eres lo más especial
+                </h1>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div
+        id="letters-overhead-desk"
+        class="letters-overhead-desk"
+        aria-label="Escritorio con cartas para Yoona"
+    >
+
+        <!-- Luz cálida superior -->
+        <div
+            class="desk-overhead-light"
+            aria-hidden="true"
+        ></div>
+
+
+        <!-- Objetos decorativos -->
+
+        <div
+            class="overhead-coffee"
+            aria-hidden="true"
+        >
+            <span class="overhead-cup-handle"></span>
+            <span class="overhead-cup-body">
+                <span class="overhead-coffee-liquid"></span>
+            </span>
+
+            <span class="coffee-ring ring-one"></span>
+            <span class="coffee-ring ring-two"></span>
+        </div>
+
+
+        <div
+            class="overhead-flower"
+            aria-hidden="true"
+        >
+            <span class="flower-stem"></span>
+            <span class="flower-leaf leaf-one"></span>
+            <span class="flower-leaf leaf-two"></span>
+            <span class="flower-head">✿</span>
+        </div>
+
+
+        <div
+            class="overhead-pen"
+            aria-hidden="true"
+        >
+            <span class="pen-cap"></span>
+            <span class="pen-body"></span>
+            <span class="pen-tip"></span>
+        </div>
+
+
+        <div
+            class="overhead-photo"
+            aria-hidden="true"
+        >
+            <div class="photo-placeholder">
+                ♡
+            </div>
+
+            <span>
+                te amoo
+            </span>
+        </div>
+
+
+        <div
+            class="overhead-ribbon"
+            aria-hidden="true"
+        ></div>
+
+
+        <!-- CARTA 1 -->
+
+        <button
+            class="desk-paper desk-paper-one"
+            type="button"
+            data-letter="0"
+            aria-label="Abrir carta para cuando me extrañes"
+        >
+            <span class="paper-fold"></span>
+
+            <span class="paper-date">
+                Ábreme cuando me extrañes
+            </span>
+
+            <span
+                class="paper-fake-writing"
+                aria-hidden="true"
+            >
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+
+            <span class="paper-signature-preview">
+               
+            </span>
+        </button>
+
+
+        <!-- CARTA 2 -->
+
+        <button
+            class="desk-paper desk-paper-two"
+            type="button"
+            data-letter="1"
+            aria-label="Abrir carta para cuando estés triste"
+        >
+            <span class="paper-fold"></span>
+
+            <span class="paper-date">
+                Ábreme cuando estés triste
+            </span>
+
+            <span
+                class="paper-fake-writing"
+                aria-hidden="true"
+            >
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+
+            <span class="paper-signature-preview">
+                M 
+            </span>
+        </button>
+
+
+        <!-- CARTA 3 -->
+
+        <button
+            class="desk-paper desk-paper-three"
+            type="button"
+            data-letter="2"
+            aria-label="Abrir carta para cuando no puedas dormir"
+        >
+            <span class="paper-fold"></span>
+
+            <span class="paper-date">
+                Ábreme cuando no puedas dormir
+            </span>
+
+            <span
+                class="paper-fake-writing"
+                aria-hidden="true"
+            >
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+
+            <span class="paper-signature-preview">
+                M 
+            </span>
+        </button>
+
+
+        <!-- CARTA 4 -->
+
+        <button
+            class="desk-paper desk-paper-four"
+            type="button"
+            data-letter="3"
+            aria-label="Abrir carta para cuando dudes de cuánto te amo"
+        >
+            <span class="paper-fold"></span>
+
+            <span class="paper-date">
+                Te amo
+            </span>
+
+            <span
+                class="paper-fake-writing"
+                aria-hidden="true"
+            >
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+
+            <span class="paper-signature-preview">
+                M 
+            </span>
+        </button>
+
+
+        <!-- CARTA 5 -->
+
+        <button
+            class="desk-paper desk-paper-five"
+            type="button"
+            data-letter="4"
+            aria-label="Abrir carta para cuando pienses en nosotras"
+        >
+            <span class="paper-fold"></span>
+
+            <span class="paper-date">
+                Gracias
+            </span>
+
+            <span
+                class="paper-fake-writing"
+                aria-hidden="true"
+            >
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+
+            <span class="paper-signature-preview">
+                M 
+            </span>
+        </button>
+
+
+        <!-- CARTA 6 -->
+
+        <button
+            class="desk-paper desk-paper-six"
+            type="button"
+            data-letter="5"
+            aria-label="Abrir carta para recordar por qué te elegí"
+        >
+            <span class="paper-fold"></span>
+
+            <span class="paper-date">
+                El por qué te elegí
+            </span>
+
+            <span
+                class="paper-fake-writing"
+                aria-hidden="true"
+            >
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+
+            <span class="paper-signature-preview">
+                M 
+            </span>
+        </button>
+
+
+        <p class="letters-desk-instruction">
+            Pícales andale
+            <span aria-hidden="true"></span>
+        </p>
+
+    </div>
+
+
+    <!-- =================================
+         CARTA ABIERTA
+    ================================= -->
+
+    <div
+        id="letter-reader"
+        class="letter-reader"
+        aria-hidden="true"
+    >
+
+        <button
+            id="letter-reader-background"
+            class="letter-reader-background"
+            type="button"
+            aria-label="Cerrar carta"
+        ></button>
+
+
+        <article
+            id="letter-reader-paper"
+            class="letter-reader-paper"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="letter-reader-title"
+        >
+
+            <button
+                id="close-letter-reader"
+                class="close-letter-reader"
+                type="button"
+                aria-label="Cerrar carta"
+            >
+                ×
+            </button>
+
+
+            <div class="letter-reader-content">
+
+                <p
+                    id="letter-reader-label"
+                    class="letter-reader-label"
+                >
+                    Una carta para ti
+                </p>
+
+                <h2 id="letter-reader-title">
+                    Para cuando me extrañes
+                </h2>
+
+                <div class="letter-divider">
+                    ♡
+                </div>
+
+                <div
+                    id="letter-reader-text"
+                    class="letter-reader-text"
+                ></div>
+
+                <div class="letter-reader-signature">
+                    <span>
+                        Con todo mi amor,
+                    </span>
+
+                    <strong>
+                        Mariana 
+                    </strong>
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+<section
+    id="countdown-section"
+    class="dashboard-content-screen"
+    aria-labelledby="countdown-title"
+>
+
+    <div class="section-topbar">
+
+        <button
+            class="back-button"
+            type="button"
+        >
+            ← Volver
+        </button>
+
+        <div
+            class="section-small-dino"
+            aria-hidden="true"
+        >
+            ⏳
+        </div>
+
+    </div>
+
+    <div class="countdown-container">
+
+        <p class="countdown-small-title">
+            Par abrazarteeeee
+        </p>
+
+        <h1 id="countdown-title">
+            Faltan...
+            <span></span>
+        </h1>
+
+        <div id="countdownTimer">
+
+            <div class="count-box">
+                <span id="countdown-days">00</span>
+                <small>Días</small>
+            </div>
+
+            <div class="count-box">
+                <span id="countdown-hours">00</span>
+                <small>Horas</small>
+            </div>
+
+            <div class="count-box">
+                <span id="countdown-minutes">00</span>
+                <small>Minutos</small>
+            </div>
+
+            <div class="count-box">
+                <span id="countdown-seconds">00</span>
+                <small>Segundos</small>
+            </div>
+
+        </div>
+
+        <p
+            id="countdown-message"
+            class="countdown-message"
+        >
+            yayyyy
+        </p>
+
+        <div
+            class="countdown-decoration"
+            aria-hidden="true"
+        >
+          
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =================================
+     FRASCO DE MENSAJES
+================================= -->
+
+<!-- =================================
+     FRASCO DE MENSAJES
+================================= -->
+
+<section
+    id="jar"
+    class="dashboard-content-screen jar-section"
+    aria-labelledby="jar-title"
+>
+
+    <div class="section-topbar">
+
+        <button
+            class="back-button"
+            type="button"
+        >
+            ← Volver
+        </button>
+
+        <div
+            class="section-small-dino"
+            aria-hidden="true"
+        >
+            🫙
+        </div>
+
+    </div>
+
+    <header class="jar-header">
+
+        <p class="dashboard-eyebrow">
+            Para ti
+        </p>
+
+        <h1 id="jar-title">
+            Frasco de mensajes
+            <span></span>
+        </h1>
+
+        <p>
+            Mensajitos cortos que espero que te gusten!!!
+        </p>
+
+    </header>
+
+    <div
+        id="jar-playground"
+        class="jar-playground"
+    >
+
+        <div
+            id="large-message-jar"
+            class="large-message-jar"
+        >
+
+            <div
+                class="large-jar-lid"
+                aria-hidden="true"
+            ></div>
+
+            <div
+                id="jar-glass-area"
+                class="large-jar-glass"
+            >
+
+                <span
+                    class="large-jar-shine"
+                    aria-hidden="true"
+                ></span>
+
+                <div class="jar-label">
+                    Yoona
+                </div>
+
+                <div
+                    id="paper-pile"
+                    class="paper-pile"
+                    aria-label="Papelitos dentro del frasco"
+                ></div>
+
+            </div>
+
+        </div>
+
+        <p
+            id="jar-instruction"
+            class="jar-instruction"
+        >
+            Agarra mis papelesss
+        </p>
+
+        <button
+            id="reset-jar-button"
+            class="reset-jar-button"
+            type="button"
+        >
+            Quiero más
+        </button>
+
+    </div>
+
+</section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+
+</html>
+
