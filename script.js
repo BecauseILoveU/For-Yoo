@@ -533,11 +533,16 @@ const marianaPhotos = [
     }
     
 ];
-
 function createPhotoCards(photos, container) {
+
+    if (!container) {
+        return;
+    }
+
     container.innerHTML = "";
 
     photos.forEach(function (photo) {
+
         const article =
             document.createElement("article");
 
@@ -545,29 +550,33 @@ function createPhotoCards(photos, container) {
             "photo-memory-card";
 
         article.innerHTML = `
-  <div class="photo-wrapper">
-    <img
-      src="${photo.image}"
-      alt="${photo.title}"
-      loading="lazy"
-      decoding="async"
-    >
-  </div>
+            <div class="photo-wrapper">
+                <img
+                    src="${photo.image}"
+                    alt="${photo.title}"
+                    loading="lazy"
+                    decoding="async"
+                >
+            </div>
 
-  <div class="photo-text">
-    <p class="photo-date">
-      ${photo.date}
-    </p>
+            <div class="photo-text">
+                <p class="photo-date">
+                    ${photo.date}
+                </p>
 
-    <h2>
-      ${photo.title}
-    </h2>
+                <h2>
+                    ${photo.title}
+                </h2>
 
-    <p>
-      ${photo.description}
-    </p>
-  </div>
-`;
+                <p>
+                    ${photo.description}
+                </p>
+            </div>
+        `;
+
+        container.appendChild(article);
+    });
+}
 
 photoTabs.forEach(function (tab) {
     tab.addEventListener("click", function () {
