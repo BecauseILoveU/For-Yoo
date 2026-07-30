@@ -1,6 +1,3 @@
-// =================================
-// ELEMENTOS DE LA PÁGINA
-// =================================
 
 const dateScreen =
     document.getElementById("date-screen");
@@ -607,9 +604,7 @@ photoTabs.forEach(function (tab) {
 });
 
 
-// =================================
-// VARIABLES
-// =================================
+
 
 let dateAttempts = 0;
 
@@ -619,12 +614,6 @@ let score = 0;
 
 let transitionRunning = false;
 
-// =================================
-// RECORDAR SI YA COMPLETÓ EL QUIZ
-// =================================
-// =================================
-// REVISAR SI YA COMPLETÓ EL QUIZ
-// =================================
 
 function checkSavedProfile() {
 
@@ -647,12 +636,7 @@ function checkSavedProfile() {
     }
 }
 
-// =================================
-// PREGUNTAS DEL CUESTIONARIO
-// =================================
 
-// Cambia estas preguntas y respuestas
-// por información real de ustedes.
 
 const questions = [
     {
@@ -713,9 +697,7 @@ const questions = [
 ];
 
 
-// =================================
-// PREGUNTA DE FECHA
-// =================================
+
 
 answerButton.addEventListener("click", function () {
 
@@ -759,9 +741,6 @@ answerButton.addEventListener("click", function () {
     }
 });
 
-// =================================
-// PASAR AL CUESTIONARIO
-// =================================
 
 continueButton.addEventListener(
     "click",
@@ -780,11 +759,6 @@ continueButton.addEventListener(
         quizAnswer.focus();
     }
 );
-
-
-// =================================
-// MOSTRAR UNA PREGUNTA
-// =================================
 
 function loadQuestion() {
 
@@ -816,17 +790,12 @@ function loadQuestion() {
 }
 
 
-// =================================
-// COMPROBAR RESPUESTA
-// =================================
-
 quizButton.addEventListener(
     "click",
     checkQuizAnswer
 );
 
 
-// Permite responder presionando Enter
 
 quizAnswer.addEventListener(
     "keydown",
@@ -852,7 +821,7 @@ function checkQuizAnswer() {
     if (userAnswer === "") {
 
         quizMessage.textContent =
-            "Tienes que escribir una respuesta 🦕";
+            "Tienes que escribir una respuestaaaa";
 
         return;
     }
@@ -881,7 +850,7 @@ function checkQuizAnswer() {
     } else {
 
         quizMessage.textContent =
-            "Mmm... sospechoso 🦖";
+            "Mmm... sospechoso ";
     }
 
     quizButton.disabled = true;
@@ -915,13 +884,7 @@ function checkQuizAnswer() {
 }
 
 
-// =================================
-// MOSTRAR RESULTADOS
-// =================================
 
-// =================================
-// MOSTRAR RESULTADOS
-// =================================
 
 function showResults() {
 
@@ -958,10 +921,6 @@ function showResults() {
     showCard(resultScreen);
 }
 
-
-// =================================
-// CARGAR PERFIL DE YOONA
-// =================================
 
 function loadYoonaProfile() {
 
@@ -1018,9 +977,7 @@ function loadYoonaProfile() {
 }
 
 
-// =================================
-// BOTÓN FINAL
-// =================================
+
 
 enterButton.addEventListener(
     "click",
@@ -1028,9 +985,6 @@ enterButton.addEventListener(
 );
 
 
-// =================================
-// TRANSICIÓN DEL ESCÁNER DE ADN
-// =================================
 
 function showDashboardTransition() {
 
@@ -1164,9 +1118,6 @@ directEnterButton.addEventListener(
 );
 
 
-// =================================
-// REPETIR EL QUIZ
-// =================================
 
 repeatQuizButton.addEventListener(
     "click",
@@ -1236,9 +1187,6 @@ function resetQuiz() {
 }
 
 
-// =================================
-// CAMBIAR DE PANTALLA
-// =================================
 
 function showCard(cardToShow) {
 
@@ -1264,12 +1212,7 @@ function showCard(cardToShow) {
 }
 
 
-// =================================
-// NORMALIZAR RESPUESTAS
-// =================================
 
-// Convierte mayúsculas en minúsculas,
-// elimina acentos y espacios adicionales.
 
 function normalizeText(text) {
 
@@ -1285,9 +1228,6 @@ function normalizeText(text) {
 }
 
 
-// =================================
-// ABRIR SECCIONES DEL DASHBOARD
-// =================================
 
 dashboardCards.forEach(
     function (card) {
@@ -1342,9 +1282,6 @@ dashboardCards.forEach(
 );
 
 
-// =================================
-// VOLVER AL DASHBOARD
-// ========
 backButtons.forEach(
     function (button) {
 
@@ -1391,9 +1328,7 @@ backButtons.forEach(
     }
 );
 
-// =================================
-// SECCIÓN PRIVADA DE BROMA
-// =================================
+
 
 const secretPassword =
     "reirea10041009";
@@ -1455,9 +1390,6 @@ privatePassword.addEventListener(
     }
 );
 
-// =================================
-// COUNTDOWN PARA VOLVERNOS A VER
-// =================================
 
 function updateCountdown() {
 
@@ -1556,9 +1488,7 @@ function updateCountdown() {
             "MENOS DE 24 HORASSSS";
     }
 }
-// =================================
-// INICIAR LA PÁGINA
-// =================================
+
 
 
 
@@ -1575,9 +1505,7 @@ createPhotoCards(
     marianaPhotos,
     marianaGallery
 );
-// =================================
-// COUNTDOWN
-// =================================
+
 
 function updateCountdown() {
 
@@ -1676,9 +1604,6 @@ function updateCountdown() {
             "AHH MENOS DE 24 HRS";
     }
 }
-// =================================
-// FRASCO DE MENSAJES
-// =================================
 
 const jarMessages = [
     "Siempre estoy pensando en ti",
@@ -1735,9 +1660,6 @@ let availableJarMessages =
     return jarMessages[selectedMessageIndex];
 }
 
-// =================================
-// FRASCO CON PAPELITOS ARRASTRABLES
-// =================================
 
 const paperPositionsDesktop = [
     { left: 34, top: 365, rotation: -13 },
@@ -2174,11 +2096,7 @@ const discoveredCount =
     document.getElementById("discovered-count");
 
 
-    //AHORA SI SCRIPT//
 
-    // =================================
-// OBSERVATORIO DE NUESTROS DESEOS
-// =================================
 
 const constellationWishes = [
 
@@ -2540,14 +2458,7 @@ document.addEventListener(
     }
 );
 
-/* =================================
-   CARTAS PARA TI — PARTE 1
-   APERTURA DE LA CAJA
-================================= */
-/* =================================
-   CARTAS PARA TI
-   ESCRITORIO Y LECTOR DE CARTAS
-================================= */
+
 
 (function initializeLettersDesk() {
 
