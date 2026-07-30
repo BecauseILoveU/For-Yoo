@@ -280,7 +280,7 @@ const photoTabs =
         image: "images/together/foto6.webp",
         date: "Febrero 2",
         title: "Pin de rana gay",
-        description: "Fuiste a barrio antiguo con una amiga y me lo compraste. Jamás lo olvidaré."
+        description: "Fuiste a barrio antiguo con una amiga y me lo compraste. Graciass."
     },
     {
         image: "images/together/foto30.webp",
@@ -345,8 +345,8 @@ const photoTabs =
     {
         image: "images/together/foto41.webp",
         date: "Febrero 2",
-        title: "Pin de rana gay",
-        description: "Fuiste a barrio antiguo con una amiga y me lo compraste. Jamás lo olvidaré."
+        title: "En arboleda con colcha",
+        description: "Me acuerdo que nos dormimos ahí"
     },
     {
         image: "images/together/foto42.webp",
