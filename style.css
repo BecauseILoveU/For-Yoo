@@ -5959,3 +5959,68 @@ body.reading-letter {
         rgba(121, 84, 72, 0.45)
         rgba(120, 85, 60, 0.08);
 }
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+@media (max-width: 768px) {
+  section {
+    width: 100%;
+    min-height: 100dvh;
+    padding: 20px 14px;
+  }
+
+  .dashboard,
+  .cards-container,
+  .gallery {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .dashboard {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .card {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    min-height: 125px;
+    padding: 14px 8px;
+  }
+
+  .card-icon {
+    width: 62px;
+    height: 62px;
+  }
+
+  h1 {
+    font-size: clamp(1.7rem, 8vw, 2.5rem);
+  }
+
+  h2 {
+    font-size: clamp(1.4rem, 7vw, 2rem);
+  }
+}

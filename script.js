@@ -168,212 +168,212 @@ const photoTabs =
   
     
     {
-        image: "images/together/foto3.jpg",
+        image: "images/together/foto3.webp",
         date: "Julio 9",
         title: "En casa de Chave",
         description: "Relación homeorotica interracial"
     },
     {
-        image: "images/together/foto5.jpg",
+        image: "images/together/foto5.webp",
         date: "Enero 25",
         title: "El primer plan con Manrique",
         description: "Estuvimos jugando y me la pase muy padree."
     },
 
     {
-        image: "images/together/foto8.jpg",
+        image: "images/together/foto8.webp",
         date: "Abril 16",
         title: "El día que fuimos a Valle Alto. ",
         description: "Era de noche y te acostaste en mí. Llegué a casa y pedí KFC."
     },
     {
-        image: "images/together/foto9.jpg",
+        image: "images/together/foto9.webp",
         date: "Mayo 1",
         title: "Mi persona favorita",
         description: "Hermosa."
     },
     {
-        image: "images/together/foto10.jpg",
+        image: "images/together/foto10.webp",
         date: "Abril 8",
         title: "Imagen sacada de video",
         description: "Porque te veías dms pretty. No sabes cuantas veces vi el video para ver tu cara x 2 segundos."
     },
     {
-        image: "images/together/foto11.jpg",
+        image: "images/together/foto11.webp",
         date: "Abril 16",
         title: "Cuando me regresé contigo.",
         description: "Disfruté demasiado agarrarte la mano todo el camino y escuchar la música de tus papis. Creo que fui verdaderamente feliz."
     },
     {
-        image: "images/together/foto14.jpg",
+        image: "images/together/foto14.webp",
         date: "Febrero 13",
         title: "Cuando me volé física para ir a tu casa",
         description: "Me hiciste una trenza pequeña."
     },
     {
-        image: "images/together/foto15.jpg",
+        image: "images/together/foto15.webp",
         date: "Julio 7",
         title: "Viniste a mi casa y mi mamá nos cachó",
         description: "Extraño eso."
     },
     {
-        image: "images/together/foto16.jpg",
+        image: "images/together/foto16.webp",
         date: "Julio 8",
         title: "Las rosas que me diste",
         description: "Que coraje que no me las pude llevar. Pero realmente fui feliz con la intención. Muchas gracias."
     },
     {
-        image: "images/together/foto17.jpg",
+        image: "images/together/foto17.webp",
         date: "Julio 22",
         title: "Paseando a la perra",
         description: "Y luego te diste cuenta de que te tome la foto y me preguntaste que qué hacia tomando sneaky pics"
     },
     {
-        image: "images/together/foto18.jpg",
+        image: "images/together/foto18.webp",
         date: "Julio 24",
         title: "Las chanclas gigantes",
         description: "El viernes de la pijamada"
     },
     {
-        image: "images/together/foto19.jpg",
+        image: "images/together/foto19.webp",
         date: "Un día bonito",
         title: "Hermanos en Boru",
         description: "Extraño tu carrito."
     },
     {
-        image: "images/together/foto21.jpg",
+        image: "images/together/foto21.webp",
         date: "Febrero 14",
         title: "Cuando vi un Nailong y me recordó a ti",
         description: "Me decías que te recordaba a mi por los ojos verdes."
     },
     {
-        image: "images/together/foto22.jpg",
+        image: "images/together/foto22.webp",
         date: "Febrero 15",
         title: "En mi casa.",
         description: "Adoro esta foto. Qué hermosa estás."
     },
     {
-        image: "images/together/foto23.jpg",
+        image: "images/together/foto23.webp",
         date: "Febrero 18",
         title: "El conejo de peluche",
         description: "Yo quería un peluche y me mentiste para que te lo aceptara."
     },
     {
-        image: "images/together/foto24.jpg",
+        image: "images/together/foto24.webp",
         date: "Marzo 2",
         title: "En la prepa.",
         description: "Durmiendo como siempre jajajaj"
     },
     {
-        image: "images/together/foto27.jpg",
+        image: "images/together/foto27.webp",
         date: "Marzo 26",
         title: "En tu carrito.",
         description: "Creo que esta foto fue en u´gurt."
     },
     {
-        image: "images/together/foto29.jpg",
+        image: "images/together/foto29.webp",
         date: "Abril 12",
         title: "Datecito en Ommani.",
         description: "No me lo pude acabar. Estaba demasiado nerviosa."
     },
     {
-        image: "images/together/foto6.jpg",
+        image: "images/together/foto6.webp",
         date: "Febrero 2",
         title: "Pin de rana gay",
         description: "Fuiste a barrio antiguo con una amiga y me lo compraste. Jamás lo olvidaré."
     },
     {
-        image: "images/together/foto30.jpg",
+        image: "images/together/foto30.webp",
         date: "Junio 21",
         title: "Tu canción",
         description: "De los colores que me recuerdan a ti."
     },
     {
-        image: "images/together/foto31.jpg",
+        image: "images/together/foto31.webp",
         date: "Julio 16",
         title: "Intercambio de zapatos",
         description: "Y casi se me olvida regresartelos cuando te dejé en tu casa."
     },
     {
-        image: "images/together/foto32.jpg",
+        image: "images/together/foto32.webp",
         date: "Marzo 31",
         title: "Salí contigo",
         description: "De hecho fue en mi cumple."
     },
     {
-        image: "images/together/foto33.jpg",
+        image: "images/together/foto33.webp",
         date: "No encuentro la fecha",
         title: "Cuando traía colcha para ti en la cajuela.",
         description: "Extrañooooo"
     },
     {
-        image: "images/together/foto35.jpg",
+        image: "images/together/foto35.webp",
         date: "No se fecha",
         title: "Zapatos afuera",
         description: "Tus zapatitos afuera mega cute."
     },
     {
-        image: "images/together/foto36.jpg",
+        image: "images/together/foto36.webp",
         date: "Enero 31",
         title: "Plan de los de OW",
         description: "la mandó Raúl al chat."
     },
     {
-        image: "images/together/foto37.jpg",
+        image: "images/together/foto37.webp",
         date: "Abril 1",
         title: "Banana peluche",
         description: "Me encantó para ti."
     },
     {
-        image: "images/together/foto38.jpg",
+        image: "images/together/foto38.webp",
         date: "Marzo 13",
         title: "First stay",
         description: "Primera vez que me dejaste a tus perros."
     },
     {
-        image: "images/together/foto39.jpg",
+        image: "images/together/foto39.webp",
         date: "Abril 24",
         title: "Elote",
         description: "Compré un elote porque te quería compartir y que lo probaras, pero no te vi así que me lo comí."
     },
     {
-        image: "images/together/foto40.jpg",
+        image: "images/together/foto40.webp",
         date: "Abril 26",
         title: "Me encantó",
         description: "Ahora si estabamos matching en persona y en boblox"
     },
     {
-        image: "images/together/foto41.jpg",
+        image: "images/together/foto41.webp",
         date: "Febrero 2",
         title: "Pin de rana gay",
         description: "Fuiste a barrio antiguo con una amiga y me lo compraste. Jamás lo olvidaré."
     },
     {
-        image: "images/together/foto42.jpg",
+        image: "images/together/foto42.webp",
         date: "Abril 12",
         title: "Banana y Melón",
         description: "Amarillo"
     },
     {
-        image: "images/together/foto34.jpg",
+        image: "images/together/foto34.webp",
         date: "Marzo 22",
         title: "Flores amarillas",
         description: "No sabes como andaba de feliz."
     },
     {
-        image: "images/together/foto43.jpg",
+        image: "images/together/foto43.webp",
         date: "Marzo 25",
         title: "Mono amarillo dibujado",
         description: "Ese día te escondí en mi baño porque llegó mi mamá."
     },
     {
-        image: "images/together/foto44.jpg",
+        image: "images/together/foto44.webp",
         date: "Marzo 25",
         title: "Rosas de lego que me diste",
         description: "Las armé con la Mercy y todavía las tengo aquí guardadas."
     },
     {
-        image: "images/together/foto45.jpg",
+        image: "images/together/foto45.webp",
         date: "Abril 1",
         title: "El carrito para tu cumple",
         description: "Ya te lo quería dar jajaja."
@@ -382,151 +382,151 @@ const photoTabs =
 
 const marianaPhotos = [
     {
-        image: "images/mariana/mariana1.jpg",
+        image: "images/mariana/mariana1.webp",
         date: "   ",
         title: "La primera vez que te robé hoodie",
         description: "me la pasé oliendola en mi casa. De hecho, me dormí con ella para poder olerte jajjajaj."
     },
     {
-        image: "images/mariana/mariana2.jpg",
+        image: "images/mariana/mariana2.webp",
         date: "   ",
         title: "Winterfest",
         description: "La primera vez que me subí a tu carro."
     },
     {
-        image: "images/mariana/mariana3.jpg",
+        image: "images/mariana/mariana3.webp",
         date: "    ",
         title: "Esperándote",
         description: "Te andaba esperando en el carro y puse música en mis audífonos que traje para examen de aleman o algo así."
     },
     {
-        image: "images/mariana/mariana4.jpg",
+        image: "images/mariana/mariana4.webp",
         date: "    ",
         title: "Pelo",
         description: "El día que me dijiste que se me veía muy bien así ondulado y te mandé foto."
     },
     {
-        image: "images/mariana/mariana5.jpg",
+        image: "images/mariana/mariana5.webp",
         date: "    ",
         title: "Un partido y tu con mi hoodie",
         description: "No te quisiste tomar foto conmigooo"
     },
     {
-        image: "images/mariana/mariana6.jpg",
+        image: "images/mariana/mariana6.webp",
         date: "    ",
         title: "Oficina de Dr. Jorge",
         description: "Me la tomaste tú."
     },
     {
-        image: "images/mariana/mariana7.jpg",
+        image: "images/mariana/mariana7.webp",
         date: "    ",
         title: "Yo",
         description: "   "
     },
     {
-        image: "images/mariana/mariana8.jpg",
+        image: "images/mariana/mariana8.webp",
         date: "    ",
         title: "Oversize",
         description: "   "
     },
     {
-        image: "images/mariana/mariana9.jpg",
+        image: "images/mariana/mariana9.webp",
         date: "    ",
         title: "Formal",
         description: "   "
     },
     {
-        image: "images/mariana/mariana10.jpg",
+        image: "images/mariana/mariana10.webp",
         date: "    ",
         title: "Mirror",
         description: "   "
     },
     {
-        image: "images/mariana/mariana11.jpg",
+        image: "images/mariana/mariana11.webp",
         date: "    ",
         title: "jajaja",
         description: "   "
     },
     {
-        image: "images/mariana/mariana12.jpg",
+        image: "images/mariana/mariana12.webp",
         date: "    ",
         title: "Otra mirror",
         description: "   "
     },
     {
-        image: "images/mariana/mariana13.jpg",
+        image: "images/mariana/mariana13.webp",
         date: "    ",
         title: "Pelo que te gustó",
         description: "   "
     },
     {
-        image: "images/mariana/mariana14.jpg",
+        image: "images/mariana/mariana14.webp",
         date: "    ",
         title: "Te",
         description: "   "
     },
     {
-        image: "images/mariana/mariana15.jpg",
+        image: "images/mariana/mariana15.webp",
         date: "    ",
         title: "Amo",
         description: "   "
     },
     {
-        image: "images/mariana/mariana17.jpg",
+        image: "images/mariana/mariana17.webp",
         date: "    ",
         title: "La que te mandé por accidente una vez",
         description: "   "
     },
     {
-        image: "images/mariana/mariana18.jpg",
+        image: "images/mariana/mariana18.webp",
         date: "    ",
         title: "En Costco llorando",
         description: "Porque me gustabas demasiado."
     },
     {
-        image: "images/mariana/mariana19.jpg",
+        image: "images/mariana/mariana19.webp",
         date: "    ",
         title: "Mirror + Chongo",
         description: "   "
     },
     {
-        image: "images/mariana/mariana20.jpg",
+        image: "images/mariana/mariana20.webp",
         date: "    ",
         title: "El día que fuimos a arboleda y estuvimos ahí arriba",
         description: "   "
     },
     {
-        image: "images/mariana/mariana21.jpg",
+        image: "images/mariana/mariana21.webp",
         date: "    ",
         title: "Con tu hoodie",
         description: "   "
     },
     {
-        image: "images/mariana/mariana22.jpg",
+        image: "images/mariana/mariana22.webp",
         date: "    ",
         title: "Fotopilates",
         description: "   "
     },
     {
-        image: "images/mariana/mariana23.jpg",
+        image: "images/mariana/mariana23.webp",
         date: "    ",
         title: "Mirror",
         description: "   "
     },
     {
-        image: "images/mariana/mariana24.jpg",
+        image: "images/mariana/mariana24.webp",
         date: "    ",
         title: "jajajaj no se que es esto",
         description: "   "
     },
     {
-        image: "images/mariana/mariana25.jpg",
+        image: "images/mariana/mariana25.webp",
         date: "    ",
         title: "lwk no me gusta esta pero xs ig",
         description: "   "
     },
     {
-        image: "images/mariana/mariana26.jpg",
+        image: "images/mariana/mariana26.webp",
         date: "    ",
         title: "Los pants que me diste en lugar de a Ana Paula",
         description: "   "
@@ -545,32 +545,29 @@ function createPhotoCards(photos, container) {
             "photo-memory-card";
 
         article.innerHTML = `
-            <div class="photo-wrapper">
-                <img
-                    src="${photo.image}"
-                    alt="${photo.title}"
-                    loading="lazy"
-                >
-            </div>
+  <div class="photo-wrapper">
+    <img
+      src="${photo.image}"
+      alt="${photo.title}"
+      loading="lazy"
+      decoding="async"
+    >
+  </div>
 
-            <div class="photo-text">
-                <p class="photo-date">
-                    ${photo.date}
-                </p>
+  <div class="photo-text">
+    <p class="photo-date">
+      ${photo.date}
+    </p>
 
-                <h2>
-                    ${photo.title}
-                </h2>
+    <h2>
+      ${photo.title}
+    </h2>
 
-                <p>
-                    ${photo.description}
-                </p>
-            </div>
-        `;
-
-        container.appendChild(article);
-    });
-}
+    <p>
+      ${photo.description}
+    </p>
+  </div>
+`;
 
 photoTabs.forEach(function (tab) {
     tab.addEventListener("click", function () {
@@ -2908,3 +2905,52 @@ function closeLetter() {
     );
 
 })();
+
+const CACHE_NAME = "for-yoona-v1";
+
+const filesToCache = [
+  "./",
+  "./index.html",
+  "./style.css",
+  "./script.js",
+  "./manifest.json",
+  "./images/icon-192.png",
+  "./images/icon-512.png"
+];
+
+self.addEventListener("install", event => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then(cache => {
+      return cache.addAll(filesToCache);
+    })
+  );
+});
+
+self.addEventListener("fetch", event => {
+  event.respondWith(
+    caches.match(event.request).then(cachedResponse => {
+      return cachedResponse || fetch(event.request);
+    })
+  );
+});
+
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", async () => {
+    try {
+      const registration = await navigator.serviceWorker.register(
+        "./service-worker.js"
+      );
+
+      console.log(
+        "Service worker registrado:",
+        registration.scope
+      );
+    } catch (error) {
+      console.error(
+        "No se pudo registrar el service worker:",
+        error
+      );
+    }
+  });
+}
