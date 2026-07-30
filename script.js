@@ -2915,34 +2915,6 @@ function closeLetter() {
 
 })();
 
-const CACHE_NAME = "for-yoona-v1";
-
-const filesToCache = [
-  "./",
-  "./index.html",
-  "./style.css",
-  "./script.js",
-  "./manifest.json",
-  "./images/icon-192.png",
-  "./images/icon-512.png"
-];
-
-self.addEventListener("install", event => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => {
-      return cache.addAll(filesToCache);
-    })
-  );
-});
-
-self.addEventListener("fetch", event => {
-  event.respondWith(
-    caches.match(event.request).then(cachedResponse => {
-      return cachedResponse || fetch(event.request);
-    })
-  );
-});
-
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", async function () {
         try {
@@ -2957,6 +2929,7 @@ if ("serviceWorker" in navigator) {
                 "Service worker actualizado:",
                 registration.scope
             );
+
         } catch (error) {
             console.error(
                 "Error con el service worker:",
