@@ -1,6 +1,3 @@
-/* ================================= */
-/* COLORES PRINCIPALES */
-/* ================================= */
 
 :root {
     --background-green: #dff7e8;
@@ -22,9 +19,6 @@
 }
 
 
-/* ================================= */
-/* CONFIGURACIÓN GENERAL */
-/* ================================= */
 
 * {
     box-sizing: border-box;
@@ -67,9 +61,7 @@ body {
 }
 
 
-/* ================================= */
-/* PÁGINA PRINCIPAL */
-/* ================================= */
+
 
 .welcome-page {
     min-height: 100vh;
@@ -87,9 +79,6 @@ body {
 }
 
 
-/* ================================= */
-/* TARJETA PRINCIPAL */
-/* ================================= */
 
 .welcome-card {
     width: 100%;
@@ -143,10 +132,6 @@ body {
 }
 
 
-/* ================================= */
-/* TEXTOS */
-/* ================================= */
-
 .eyebrow {
     margin-bottom: 18px;
 
@@ -190,9 +175,6 @@ h1 span {
 }
 
 
-/* ================================= */
-/* DINOSAURIO PRINCIPAL */
-/* ================================= */
 
 .main-dinosaur {
     display: inline-flex;
@@ -222,9 +204,7 @@ h1 span {
     animation:
         dinosaurBounce 3s ease-in-out infinite;
 }
-/* ================================= */
-/* CAJA DE LA PREGUNTA */
-/* ================================= */
+
 
 .question-box {
     padding: 30px;
@@ -270,10 +250,6 @@ h1 span {
 }
 
 
-/* ================================= */
-/* INPUT */
-/* ================================= */
-
 input {
     width: 100%;
 
@@ -312,9 +288,7 @@ input:disabled {
 }
 
 
-/* ================================= */
-/* BOTÓN */
-/* ================================= */
+
 
 button {
     width: 100%;
@@ -391,9 +365,6 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* MENSAJE */
-/* ================================= */
 
 #answer-message {
     min-height: 28px;
@@ -412,9 +383,7 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* DINOSAURIOS DEL FONDO */
-/* ================================= */
+
 
 .background-dinosaur {
     position: absolute;
@@ -469,9 +438,6 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* NUBES */
-/* ================================= */
 
 .cloud {
     position: absolute;
@@ -503,9 +469,6 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* PASTO INFERIOR */
-/* ================================= */
 
 .grass {
     position: absolute;
@@ -533,9 +496,7 @@ input:focus-visible {
     pointer-events: none;
 }
 
-/* ================================= */
-/* DISEÑO PARA CELULAR */
-/* ================================= */
+
 
 @media (max-width: 650px) {
 
@@ -587,9 +548,7 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* CAMBIO ENTRE PANTALLAS */
-/* ================================= */
+
 
 .welcome-card {
     display: none;
@@ -617,9 +576,7 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* PROGRESO DEL CUESTIONARIO */
-/* ================================= */
+
 
 .quiz-progress {
     width: 100%;
@@ -667,9 +624,7 @@ input:focus-visible {
 
     text-transform: uppercase;
 }
-/* ================================= */
-/* MENSAJES DEL QUIZ */
-/* ================================= */
+
 
 #quiz-message {
     min-height: 28px;
@@ -688,9 +643,6 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* RESULTADO FINAL */
-/* ================================= */
 
 .final-result {
     padding: 30px;
@@ -721,9 +673,7 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* ANIMACIÓN EXTRA */
-/* ================================= */
+
 
 @keyframes buttonEntrance {
     from {
@@ -742,9 +692,6 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* DASHBOARD */
-/* ================================= */
 
 .dashboard-screen {
     display: none;
@@ -842,9 +789,7 @@ input:focus-visible {
         dinosaurBounce 3s ease-in-out infinite;
 }
 
-/* ================================= */
-/* TARJETAS DEL DASHBOARD */
-/* ================================= */
+
 
 .dashboard-grid {
     display: grid;
@@ -995,9 +940,7 @@ input:focus-visible {
         translateX(5px);
 }
 
-/* ================================= */
-/* ANIMACIONES DE LA TRANSICIÓN */
-/* ================================= */
+
 
 @keyframes dashboardEntrance {
     from {
@@ -1016,9 +959,7 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* DASHBOARD EN CELULAR */
-/* ================================= */
+
 
 @media (max-width: 750px) {
 
@@ -1056,9 +997,7 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* PANTALLAS INTERIORES */
-/* ================================= */
+
 
 .dashboard-content-screen {
     display: none;
@@ -1084,9 +1023,6 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* PARTE SUPERIOR */
-/* ================================= */
 
 .section-topbar {
     display: flex;
@@ -1144,9 +1080,6 @@ input:focus-visible {
     animation:
         dinosaurBounce 3s ease-in-out infinite;
 }
-/* ================================= */
-/* ENCABEZADO DE SECCIÓN */
-/* ================================= */
 
 .section-header {
     width: 100%;
@@ -1191,9 +1124,6 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* CUADRÍCULA DE FOTOS */
-/* ================================= */
 
 .photos-grid {
     display: grid;
@@ -1311,9 +1241,7 @@ input:focus-visible {
 
     line-height: 1.7;
 }
-/* ================================= */
-/* ANIMACIÓN */
-/* ================================= */
+
 
 @keyframes sectionEntrance {
     from {
@@ -1331,10 +1259,6 @@ input:focus-visible {
     }
 }
 
-
-/* ================================= */
-/* FOTOS EN CELULAR */
-/* ================================= */
 
 @media (max-width: 750px) {
 
@@ -1359,9 +1283,6 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* BOTÓN SECUNDARIO */
-/* ================================= */
 
 .secondary-button {
     color: var(--dark-green);
@@ -1400,9 +1321,6 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* ESCÁNER DE ADN */
-/* ================================= */
 
 .transition-screen {
     display: none;
@@ -1555,10 +1473,6 @@ input:focus-visible {
     letter-spacing: 2px;
 }
 
-/* ================================= */
-/* PERFIL ENCONTRADO */
-/* ================================= */
-
 .profile-found {
     display: none;
 
@@ -1633,9 +1547,6 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* PERFIL DEL DASHBOARD */
-/* ================================= */
 
 .dashboard-profile {
     display: flex;
@@ -1723,9 +1634,7 @@ input:focus-visible {
     font-size: 11px;
     line-height: 1.4;
 }
-/* ================================= */
-/* ANIMACIONES DEL ESCÁNER */
-/* ================================= */
+
 
 @keyframes scannerScreenEntrance {
     from {
@@ -1772,9 +1681,7 @@ input:focus-visible {
 }
 
 
-/* ================================= */
-/* PERFIL EN CELULAR */
-/* ================================= */
+
 
 @media (max-width: 750px) {
 
@@ -1882,9 +1789,6 @@ input:focus-visible {
     display: grid;
 }
 
-/* =================================
-   SECCIÓN PRIVADA DE BROMA
-================================= */
 
 .private-access-card {
     width: 100%;
@@ -2096,9 +2000,7 @@ input:focus-visible {
 }
 
 
-/* =================================
-   OBSERVATORIO Y TELESCOPIO
-================================= */
+
 .space-section {
     position: fixed;
     inset: 0;
@@ -3385,9 +3287,6 @@ body.observatory-mode .grass {
 }
 
 
-/* =================================
-   OBSERVATORIO FINAL — PANTALLA COMPLETA
-================================= */
 
 html,
 body {
@@ -3627,9 +3526,7 @@ body.observatory-mode .grass {
         border-radius: 0;
     }
 }
-/* =================================
-   CONSTELACIONES REALES
-================================= */
+
 
 .real-constellation {
     position: absolute;
@@ -3850,10 +3747,6 @@ body.observatory-mode .grass {
     height: 210px;
 }
 
-/* =================================
-   VÍA LÁCTEA
-================================= */
-
 .milky-way {
     position: absolute;
     z-index: 2;
@@ -3956,10 +3849,6 @@ body.observatory-mode .grass {
             scaleX(1.15);
     }
 }
-
-/* =================================
-   PAISAJE NOCTURNO
-================================= */
 
 .night-landscape {
     position: absolute;
@@ -4107,10 +3996,7 @@ body.observatory-mode .grass {
         0 0 42px rgba(111, 234, 255, 0.55);
 }
 
-/* =================================
-   CARTAS PARA TI
-   ESCRITORIO CENITAL
-================================= */
+
 
 .letters-section {
     position: relative;
@@ -4124,10 +4010,6 @@ body.observatory-mode .grass {
     background: #4d2c20;
 }
 
-
-/* =================================
-   BARRA SUPERIOR
-================================= */
 
 .letters-desk-topbar {
     position: absolute;
@@ -4204,9 +4086,6 @@ body.observatory-mode .grass {
 }
 
 
-/* =================================
-   MESA DE MADERA
-================================= */
 
 .letters-overhead-desk {
     position: relative;
@@ -4322,11 +4201,6 @@ body.observatory-mode .grass {
     filter: blur(15px);
     transform: rotate(-10deg);
 }
-
-
-/* =================================
-   HOJAS
-================================= */
 
 .desk-paper {
     position: absolute;
@@ -4596,7 +4470,6 @@ body.observatory-mode .grass {
 }
 
 
-/* Firma previa */
 
 .paper-signature-preview {
     position: absolute;
@@ -4612,11 +4485,6 @@ body.observatory-mode .grass {
 }
 
 
-/* =================================
-   DECORACIONES
-================================= */
-
-/* Café */
 
 .overhead-coffee {
     position: absolute;
@@ -4948,9 +4816,7 @@ body.observatory-mode .grass {
 }
 
 
-/* =================================
-   LECTOR Y ZOOM
-================================= */
+
 
 .letter-reader {
     position: fixed;
@@ -5265,16 +5131,13 @@ body.observatory-mode .grass {
 }
 
 
-/* Bloquea el fondo mientras se lee */
+
 
 body.reading-letter {
     overflow: hidden;
 }
 
 
-/* =================================
-   ANIMACIONES
-================================= */
 
 @keyframes deskInstructionFloat {
     0%,
@@ -5288,9 +5151,7 @@ body.reading-letter {
 }
 
 
-/* =================================
-   RESPONSIVE
-================================= */
+
 
 @media (max-width: 950px) {
 
@@ -5602,12 +5463,6 @@ body.reading-letter {
 
 }
 
-/* =================================
-   FRASCO DE MENSAJES
-================================= */
-/* =================================
-   NUEVO FRASCO DE MENSAJES
-================================= */
 
 .jar-section {
     max-width: none;
@@ -5650,7 +5505,7 @@ body.reading-letter {
 }
 
 
-/* Área completa donde se puede arrastrar */
+
 
 .jar-playground {
     position: relative;
