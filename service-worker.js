@@ -1,57 +1,59 @@
-const CACHE_NAME = "app-yoo-v3";
+const CACHE_NAME = "app-yoo-v5";
 
 const filesToCache = [
-  "./",
-  "./index.html",
-  "./style.css",
-  "./script.js",
-  "./manifest.json",
-  "./images/icon-192.png",
-  "./images/icon-512.png"
+    "./",
+    "./index.html",
+    "./style.css",
+    "./script.js",
+    "./manifest.json",
+    "./images/icon-192.png",
+    "./images/icon-512.png"
 ];
 
-self.addEventListener("install", event => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => {
-      return cache.addAll(filesToCache);
-    })
-  );
+self.addEventListener("install", function (event) {
+    event.waitUntil(
+        caches.open(CACHE_NAME).then(function (cache) {
+            return cache.addAll(filesToCache);
+        })
+    );
 
-  self.skipWaiting();
+    self.skipWaiting();
 });
 
-self.addEventListener("activate", event => {
-  event.waitUntil(
-    caches.keys().then(cacheNames => {
-      return Promise.all(
-        cacheNames
-          .filter(cacheName => cacheName !== CACHE_NAME)
-          .map(cacheName => caches.delete(cacheName))
-      );
-    })
-  );
+self.addEventListener("activate", function (event) {
+    event.waitUntil(
+        caches.keys().then(function (cacheNames) {
+            return Promise.all(
+                cacheNames.map(function (cacheName) {
+                    if (cacheName !== CACHE_NAME) {
+                        return caches.delete(cacheName);
+                    }
+                })
+            );
+        })
+    );
 
-  self.clients.claim();
+    self.clients.claim();
 });
 
-self.addEventListener("fetch", event => {
-  if (event.request.method !== "GET") {
-    return;
-  }
+self.addEventListener("fetch", function (event) {
+    if (event.request.method !== "GET") {
+        return;
+    }
 
-  event.respondWith(
-    fetch(event.request)
-      .then(response => {
-        const responseCopy = response.clone();
+    event.respondWith(
+        fetch(event.request)
+            .then(function (response) {
+                const responseCopy = response.clone();
 
-        caches.open(CACHE_NAME).then(cache => {
-          cache.put(event.request, responseCopy);
-        });
+                caches.open(CACHE_NAME).then(function (cache) {
+                    cache.put(event.request, responseCopy);
+                });
 
-        return response;
-      })
-      .catch(() => {
-        return caches.match(event.request);
-      })
-  );
+                return response;
+            })
+            .catch(function () {
+                return caches.match(event.request);
+            })
+    );
 });
